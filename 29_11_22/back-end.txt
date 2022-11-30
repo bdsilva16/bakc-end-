@@ -1,0 +1,32 @@
+1-arrumar uma boa renda
+2-juntar o dinheiro necessario para pagar a vista 
+3-entrar no site da Amazon e ver os melhores preços 
+    3.1-ligar o notebook
+    3.2-verificar se a conexão de rede 
+    3.3-abrir o google chrome
+    3.4-entrar no site da www.Amazon.com.br 
+4-perguntar aos amigos se alguem ja adiguiriu o protuto pra ver se é bom 
+5- escolher o mac-book
+6-colocar meu endereço para a entrega na minha residencia 
+7-emitir o boleto ir até uma loterica para pagar o boleto 
+8-voltar para casa e esperar a confirmação do pagamento 
+9-assim que o pagamento for confirmado espera o produto ser separado 
+10- apos o produto ser separado espera que ele esteja em tramite 
+11- após o tramite espera o produto ser enviado até minha residencia 
+12-quando o produto chegar na minha residencia abrir a enbalagem 
+
+
+
+
+
+
+======================================================================================================================================================================
+tarefa
+fazer um programa, que calcule o valor de imposto de renda baseado num salario. 
+(aliquota Imposta de renda: 7,5%)
+
+var num1;
+var num2;
+var calculo;
+const aliquota = 7,5%
+writeln("Informe o primeiro numero:",num1):
