@@ -22,3 +22,6 @@ Vamos escrever um programa que receba que notas (De 1 a 10), calcule e
 readln("informe o valor da nota", valor da nota);
 mediafinal = aprovados * reprovados;
 writeln=("O valor da media final é:", mediafinal);
+
+
+3-
