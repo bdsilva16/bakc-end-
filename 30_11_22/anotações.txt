@@ -1,0 +1,49 @@
+tarefa
+fazer um programa, que calcule o valor de imposto de renda baseado num salario. 
+(aliquota Imposta de renda: 7,5%)
+
+var num1;
+var num2;
+var calculo;
+const aliquota = 7,5%
+writeln("Informe o primeiro numero:",num1):
+
+entrada 
+preocessamento 
+saida 
+
+1- Descrição narrativa
+
+1- Solicitar ao usuario o valor do salario
+2- Calcular o valor do imposto a recolher baseado na aliquota de 7,5%
+3- Mostar ao usuário o valor do imposto calculado
+
+
+2-Pseudocódigo
+
+const aliquota = 7,5%
+var salario 
+var impostoDevido
+
+
+readln("informe o salario", salario);
+impostoDevido =salario * aliquota;
+writeln("O valor do imposto devido é:", impostoDevido);
+
+#readln = ler a linha e armazenamento
+#writeln = escrever a linha
+
+3-Fluxograma Convencional
+
+\niltondiniiz\back-end-1\87311f7b4d19c2b1bdeb644594e0eb0a793e923c\29_11_22\Algoritmo_Fluxograma.drawio.png
+
+
+
+
+===========================================================================================================================
+
+
+
+N = numero
+B = booleanos (verdadeiros e falso)
+T = texto vai estar entre aspas 
