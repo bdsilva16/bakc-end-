@@ -1,0 +1,24 @@
+Vamos escrever um programa que receba que notas (De 1 a 10), calcule e 
+    armazene a média, e no final escreva aprovado caso a média seja 
+        maior ou igual a 7, e reprovado caso a média seja menor que 7.
+
+1- Descrição narrativa
+
+1- Solicitar ao usuario (adiministradores/professores) que informe o valor da nota
+2- calcular e Armazenar a media das notas aprovadas e reprovadas 
+3- Mostrar ao aluno sua media 
+
+
+
+2- Pseudocódigo
+  
+1- var notas aprovadas 
+2- var notas reprovadas 
+3- const faixa1 = 1 a 6 reprovado
+4- const faixa2 = 7 a 10 aprovados
+   
+
+
+readln("informe o valor da nota", valor da nota);
+mediafinal = aprovados * reprovados;
+writeln=("O valor da media final é:", mediafinal)
