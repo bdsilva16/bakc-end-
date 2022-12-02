@@ -1,0 +1,135 @@
+Vamos escrever um programa que receba que notas (De 1 a 10), calcule e 
+    armazene a média, e no final escreva aprovado caso a média seja 
+        maior ou igual a 7, e reprovado caso a média seja menor que 7.
+
+1- Descrição narrativa
+
+1- Solicitar ao usuario (adiministradores/professores) que informe o valor da nota
+2- calcular e Armazenar a media das notas aprovadas e reprovadas 
+3- Mostrar ao aluno sua media 
+
+
+
+2- Pseudocódigo
+  
+1- var notas aprovadas 
+2- var notas reprovadas 
+3- const faixa1 = 1 a 6 reprovado
+4- const faixa2 = 7 a 10 aprovados
+   
+
+
+readln("informe o valor da nota", valor da nota);
+mediafinal = aprovados * reprovados;
+writeln=("O valor da media final é:", mediafinal);
+
+
+3-
+
+
+PROFESSOR FAZENDO
+
+4 - notas 
+
+
+1- Descrição narrativa
+
+1- Soliciatr ao usuario a nota do primeiro bimestre
+2- Soliciatr ao usuario a nota do segundo bimestre
+3- Soliciatr ao usuario a nota do terceiro bimestre
+4- Soliciatr ao usuario a nota do quarto bimestre
+5- Calcule e Armazenar (nota1 + nota2 + nota3 + nota4) / 4
+6- Se a media >= 7 escreva Aluno aprovado
+7- Senão escreva Aluno aprovado
+
+
+
+2-Pseudocódigo
+
+var nota1
+var nota2
+var nota3
+var nota4
+var media
+
+readln("Informe a nota do primeiro bimestre", nota1);
+readln("Informe a nota do segundo bimestre", nota2);
+readln("Informe a nota do terceiro bimestre", nota3);
+readln("Informe a nota do quarto bimestre", nota4);
+
+media = (nota1+nota2+nota3+nota4)/4;
+
+if(media>= 7)
+    escreva("Aluno aprovado");
+else
+    escreva("Aluno reprovado");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+variavel= espaço alocado na memoria
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.5 Exercício Proposto
+
+1. Classifique os dados especificados abaixo de acordo com seu tipo, assinalando com I os
+dados do tipo inteiro, com R os reais, com L os literais, com B os lógicos (booleanos), e
+com N aqueles para os quais não é possível definir a priori um tipo de dado.
+(N) 0.21
+(I) 1
+(B) V
+(L) “0.”
+(N) 1%
+(L) “José”
+(N) 0,35
+(N) .F.
+( ) -0.001
+
+( ) .T.
+( ) +3257
+( ) “a”
+( ) “+3257”
+( ) +3257.
+( ) “-0.0”
+(L) “.F.”
+(N) ± 3
+
+(N) .V.
+(N) .V
+(L) “abc”
+(B) F
+(N) C
+(N) Maria
+(I) +36
