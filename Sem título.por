@@ -1,7 +1,8 @@
 programa {
-  funcao inicio() {
-    
-inteiro posi
+    cadeia texto
+      
+      funcao repetidor() {
+        
 
   }
 }
