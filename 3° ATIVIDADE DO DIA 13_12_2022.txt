@@ -1,0 +1,22 @@
+programa {
+  
+  inteiro repetidorGlobal = 0
+
+  funcao repetidor(inteiro repeticoes) {
+    
+    para(inteiro i = 0; i < 5; i++){
+     
+    escreva("ola mundo \n") 
+    } 
+  } 
+  funcao inicio(){
+    escreva("Digite a quantidade de repeticoes \n")
+      
+      leia(repetidorGlobal)
+      
+      repetidor(repetidorGlobal)
+      
+      
+  }
+    
+}
