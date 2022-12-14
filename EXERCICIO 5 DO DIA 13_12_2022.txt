@@ -1,0 +1,38 @@
+programa {
+  
+  
+  real maiornota = 0
+  real notas[4]
+  real media = 0
+  real soma = 0
+
+  funcao armazenadorDeNota(){
+    para(inteiro i = 0; i < 4; i++){
+      escreva("Digite aqui a sua nota! \n")
+      leia(notas[i])
+      obterNotas(notas[i])
+      se(notas[i] > maiornota){
+          maiornota = notas[i]
+        
+      }
+      
+    }  
+        
+  }
+  funcao obterNotas(real num1){
+   soma = soma + num1
+    
+  
+  }
+  funcao divisaoDeNotas(){
+    media = soma / 4
+  }
+
+  funcao inicio(){
+    armazenadorDeNota()
+    divisaoDeNotas()
+    escreva(" A maior nota é " ,maiornota)
+    escreva(" A media é " ,media)
+  }
+ 
+}
