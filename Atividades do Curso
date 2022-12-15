@@ -14,3 +14,41 @@ programa {
   
 }
 ===========================================================================================================
+
+programa {
+
+  inteiro num1
+  inteiro num2 
+
+  funcao pedirnumero(){
+    escreva("escreva o primeiro numero \n")
+    leia(num1)
+    escreva("escreva o segundo numero \n")
+    leia(num2)
+    escreva("A soma seria:",somador(num1, num2), "\n")
+    escreva("A divisao seria:",divisor(num1,num2), "\n")
+    escreva("A multiplicação seria:",multiplicador(num1,num2),"\n")
+    escreva("O diminuidor seria:",diminuidor(num1,num2), "\n")
+
+
+
+  }
+  
+  funcao real somador(inteiro num1, inteiro num2){
+    retorne(num1+num2) 
+  }
+  funcao real divisor(inteiro num1, inteiro num2){
+    retorne(num1/num2)
+  }
+  funcao real multiplicador(inteiro num1, inteiro num2){
+    retorne(num1*num2)
+  } 
+  funcao real diminuidor(inteiro num1, inteiro num2){
+    retorne(num1-num2)
+  }
+  funcao inicio(){
+    pedirnumero()
+
+  }
+}
+=========================================================================================
