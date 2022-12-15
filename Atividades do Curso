@@ -1,0 +1,16 @@
+programa {
+  
+  inteiro numero = 0
+  funcao inteiro numeroDigitado(inteiro numero){
+  retorne(numero)
+  }
+ 
+  funcao inicio(){
+    escreva("Digite numero qualquer: \n")
+    leia(numero)
+    escreva("O usuario digitou o numero:",numeroDigitado(numero))
+
+  }  
+  
+}
+===========================================================================================================
