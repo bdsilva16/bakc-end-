@@ -1,0 +1,16 @@
+programa {
+  
+  inteiro aloMundoGlobal = 0
+  
+  funcao aloMundo(inteiro repeticoes) {
+    para(inteiro i = 0; i < aloMundoGlobal; i++){
+      escreva("Alo mundo \n")   
+    }
+  }
+
+  funcao inicio(){
+    escreva("digite a quantidade de repetições: \n")
+    leia(aloMundoGlobal)
+    aloMundo(aloMundoGlobal)
+  }
+}

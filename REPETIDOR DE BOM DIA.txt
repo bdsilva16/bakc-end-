@@ -1,0 +1,15 @@
+programa {
+  
+  inteiro repetidorGlobal
+  
+  funcao repetidor(inteiro repeticoes) {
+    para(inteiro i = 0; i < repetidorGlobal; i++){
+      escreva("Bom Dia!!! \n")
+    }  
+  }
+  funcao inicio(){
+    escreva("Digite a quantidade de vezes que deseja ler 'bom dia' \n")
+    leia(repetidorGlobal)
+    repetidor(repetidorGlobal)
+  }
+}
