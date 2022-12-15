@@ -246,4 +246,27 @@ programa {
 
 }
 =================================================================================================
+programa {
+  
+  cadeia nomeglobal[5]
+  
+  funcao armazenadorDeNome() {
+    para(inteiro i = 0; i < 5; i++){
+      escreva("Digite seu nome!: \n")
+      leia(nomeglobal[i]) 
+    }
+  }
+  funcao mesangemUsuario(){
+    para(inteiro i = 0; i < 5; i++){
+      escreva("Bom dia ",nomeglobal[i]," é um prazer ter voce aqui \n")
+    }    
+  }
 
+  funcao inicio(){
+    armazenadorDeNome()
+    mesangemUsuario()
+    
+  }
+}
+isso vai escrever 5 nomes e dizer bom dia e que é um prazer telos aqui.
+=======================================================================================================
