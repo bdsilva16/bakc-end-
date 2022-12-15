@@ -130,4 +130,15 @@ programa {
     
 }
 ================================================================================================
+programa {
+  
+    
+  funcao real divisaoDeNumeros(inteiro num1, inteiro num2, inteiro num3){
+    retorne (num1 + num2 + num3) /3
+  }
+  funcao inicio(){
+    escreva("sua media é: " ,divisaoDeNumeros(1,1,1))
+  }
+}
+================================================================================================
 
