@@ -270,3 +270,47 @@ programa {
 }
 isso vai escrever 5 nomes e dizer bom dia e que é um prazer telos aqui.
 =======================================================================================================
+programa {
+  
+  cadeia nomeGlobal[5]
+  inteiro notaGlobal[5]
+  logico aprovado[5]
+  
+  funcao armazenadorDeNome() {
+    para(inteiro i = 0; i < 5; i++){
+      escreva("Digite seu nome!: \n")
+      leia(nomeGlobal[i]) 
+    }
+  }
+  funcao mesangemUsuario(){
+    para(inteiro i = 0; i < 5; i++){
+      escreva("Bom dia ",nomeGlobal[i]," é um prazer ter voce aqui \n")
+    }    
+  }
+  funcao real armazenadorDeNota(){
+    para(inteiro i = 0; i < 5; i++){
+      escreva("Digite sua nota!: \n")
+      leia(notaGlobal[i])
+    } 
+  }
+  funcao  alunoAprovado(){
+    para(inteiro i = 0; i < 5; i++){
+      se(notaGlobal[i] >= 5 ){
+        aprovado[i] = verdadeiro
+      }senao{
+        aprovado[i] = falso
+      }
+        
+    } 
+  } 
+
+  funcao inicio(){
+    armazenadorDeNome()
+    mesangemUsuario()
+    armazenadorDeNota()
+    alunoAprovado()
+    escreva("Notas \n", aprovado)
+  }
+}
+isso recebe nomes, numeros e diz se é verdadeiro ou falso
+=====================================================================================================
