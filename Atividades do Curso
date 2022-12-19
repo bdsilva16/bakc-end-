@@ -314,3 +314,78 @@ programa {
 }
 isso recebe nomes, numeros e diz se é verdadeiro ou falso
 =====================================================================================================
+programa {
+
+  cadeia nomeVeiculoGlobal[5]
+  real precoVeiculoGlobal[5]
+  inteiro anoVeiculoGlobal[5]
+
+  funcao cadeia leiaCadeia(){
+    cadeia nomeVeiculoLocal
+    escreva("Informe o nome do veiculo: ")
+    leia(nomeVeiculoLocal)
+    retorne nomeVeiculoLocal
+  }
+  funcao real leiaReal(){
+    real precoVeiculoLocal
+    escreva("Informe o preco do veiculo: ")
+    leia(precoVeiculoLocal)
+    retorne precoVeiculoLocal
+  }
+  funcao real leiaInteiro(){
+    inteiro anoVeiculoLocal
+    escreva("Informe o ano do veiculo: ")
+    leia(anoVeiculoLocal)
+    retorne anoVeiculoLocal
+  }
+  funcao obterNomes(){
+    para(inteiro i = 0; i < 5; i++){
+      nomeVeiculoGlobal[i] = leiaCadeia()
+    }
+  }
+  funcao obterPrecos(){
+    para(inteiro i = 0; i < 5; i++){
+      precoVeiculoGlobal[i] = leiaReal()
+    }
+  }
+  funcao obterAno(){
+    para(inteiro i = 0; i < 5; i++){
+      anoVeiculoGlobal[i] = leiaInteiro()
+    }
+  }
+  funcao cadeia situacaoVeiculo(inteiro anoVeiculo){
+   se(anoVeiculo < 2022){
+      retorne "Seminovo" 
+    }senao se(anoVeiculo <= 2023){
+      retorne "0 km"
+    }senao{
+      retorne "Veiculo do filme de volta para o futuro"
+    }
+  }
+
+  funcao escrevaCatalogoVeiculos(){
+    para(inteiro i = 0; i < 5; i++){
+        escreva(
+        "modelo:",
+        nomeVeiculoGlobal[i],
+        " valor R$",
+        precoVeiculoGlobal[i],
+        " Ano:",
+        anoVeiculoGlobal[i],
+        ", ",
+        situacaoVeiculo(anoVeiculoGlobal[i]),
+        "\n"
+      )
+    }
+  }
+  
+  funcao inicio(){
+    obterNomes()
+    obterPrecos()
+    obterAno()
+    escrevaCatalogoVeiculos()
+    
+  }
+}
+recebe nomes de carros o valor o ano e diz mais coisas.
+===============================================================================================================================================
