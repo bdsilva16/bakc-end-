@@ -473,6 +473,86 @@ programa {
     escreva("\n")
     escreva("\n FINALIZADO")
   }
+  ========================================================================================================================================
+  programa {
+  inclua biblioteca Util --> u
+  inteiro nomeMatriz[5][5]
+ 
+    
+  funcao preencherMatriz() {
+    para(inteiro i = 0; i < 5; i++){
+      para(inteiro j = 0; j < 5; j++){
+       se(4-i==j){
+        nomeMatriz [i][j] = 1 
+      }senao{
+        nomeMatriz [i][j] = 0
+      }
+    }
+
+  }
+  funcao varrerMatriz(){
+    para(inteiro i = 0; i < 5; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        escreva(nomeMatriz[i][j])
+        
+      }
+    }
+ 
+  
+  }
+  funcao inicio(){
+    preencherMatriz()
+    varrerMatriz()
+  }
+}
+
+======================================================================================================================
+programa {
+  inclua biblioteca Util --> u
+  inteiro nomeMatriz[5][5]
+ 
+    
+  funcao preencherMatriz() {
+    para(inteiro i = 0; i < 5; i++){
+      para(inteiro j = 0; j < 5; j++){
+       se(i==j){
+        nomeMatriz [i][j] = 1 
+      }senao{
+        nomeMatriz [i][j] = 0
+      }
+    } 
+  
+  } 
+  funcao preencherMatrizNova() {
+      para(inteiro i = 0; i < 5; i++){
+      para(inteiro j = 0; j < 5; j++){
+       se(4-i==j){
+        nomeMatriz [i][j] = 1 
+      
+    } 
+  } 
+  funcao varrerMatriz(){
+    para(inteiro i = 0; i < 5; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        escreva(nomeMatriz[i][j])
+        
+      }
+    }
+ 
+  
+  }
+  funcao inicio(){
+    preencherMatriz()
+    preencherMatrizNova()
+    varrerMatriz()
+  
+  }
+}
+===============================================================================================================================
   
 
  funcao inicio (){
