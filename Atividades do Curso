@@ -414,27 +414,39 @@ programa {
 programa {
   
   inclua biblioteca Util --> u
-  inteiro nomeMatriz[6][6] 
+  inteiro nomeMatriz[6][6]
   inteiro const comparacao = 3
     
-  funcao inicio() {
+  funcao preencherMatriz() {
+    escreva("\nVai preencher a matriz \n")
     para(inteiro i = 0; i < 6; i++){
       para(inteiro j = 0; j < 6; j++){
-        nomeMatriz[i][j] = u.sorteia(0,1)
-       escreva(" ",nomeMatriz[i][j]," ")
+        nomeMatriz[i][j] = u.sorteia(1,5)
       }
-      escreva ("\n")u.aguarde(800)
     }
+    escreva("\npreencheu a matriz \n")
   }
-  funcao cadeia situacaoVeiculo(inteiro anoVeiculo){
-   se(nomeMatriz[i][j == comparacao]){
-      retorne "Seminovo" 
-    }senao se(anoVeiculo <= 2023){
-      retorne "0 km"
+  funcao varrerMatriz(){
+    escreva("\nvai varrer a matriz \n")
+    para(inteiro i = 0; i < 6; i++){
+      para(inteiro j = 0; j < 6; j++){
+        se(compararDoisNumeros(nomeMatriz[i][j])){
+          escreva("\nNa posição ", i,"x", j," foi encontrado o numero ",comparacao "\n")
+        }
+      }
+    }
+    escreva("\nFinalizado \n")
+  }
+  funcao logico compararDoisNumeros( inteiro numeroAtual){
+    se(numeroAtual == comparacao){
+      retorne verdadeiro
     }senao{
-      retorne "Veiculo do filme de volta para o futuro"
+      retorne falso
     }
   }
+
+  funcao inicio (){
+  preencherMatriz()
+  varrerMatriz()
 }
-tem que acabar de fazer.
-============================================================================================
+========================================================================================================================================
