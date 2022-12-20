@@ -411,3 +411,30 @@ programa {
   }
 }
 ======================================================================================================================
+programa {
+  
+  inclua biblioteca Util --> u
+  inteiro nomeMatriz[6][6] 
+  inteiro const comparacao = 3
+    
+  funcao inicio() {
+    para(inteiro i = 0; i < 6; i++){
+      para(inteiro j = 0; j < 6; j++){
+        nomeMatriz[i][j] = u.sorteia(0,1)
+       escreva(" ",nomeMatriz[i][j]," ")
+      }
+      escreva ("\n")u.aguarde(800)
+    }
+  }
+  funcao cadeia situacaoVeiculo(inteiro anoVeiculo){
+   se(nomeMatriz[i][j == comparacao]){
+      retorne "Seminovo" 
+    }senao se(anoVeiculo <= 2023){
+      retorne "0 km"
+    }senao{
+      retorne "Veiculo do filme de volta para o futuro"
+    }
+  }
+}
+tem que acabar de fazer.
+============================================================================================
