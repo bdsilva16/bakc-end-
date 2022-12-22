@@ -716,3 +716,51 @@ funcao letraN(){
   }
 }
 =============================================================================================================================
+programa {
+
+  cadeia nome,condicao
+  inteiro linha,coluna
+  cadeia matriz[2][2] = {
+    {" "," "},
+    {" "," "}
+  }
+  logico podeContinuar = verdadeiro
+  
+  funcao imprimirMatriz(){
+    para(inteiro i = 0; i < 2; i++){
+      para(inteiro j = 0; j < 2; j++){
+        se(matriz[i][j] != " "){
+          escreva(matriz[i][j])
+          
+        }senao{
+          escreva("x")
+        }
+      }
+      escreva("\n")
+    } 
+  }
+  funcao obterDados(){
+    enquanto(podeContinuar){
+      escreva("Infome seu nome: \n")
+      leia(nome)
+      escreva("Infome a linha: \n")
+      leia(linha)
+      escreva("Infome a coluna: \n")
+      leia(coluna)
+      escreva("Deseja continuar:(s/n)? \n")
+      leia(condicao)
+
+      matriz[linha][coluna] = nome
+      
+      se(condicao == "n"){
+        podeContinuar = falso
+      }
+
+    }
+  }
+  funcao inicio(){
+    obterDados()
+    imprimirMatriz()
+  }
+}
+===========================================================================================================
