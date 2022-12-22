@@ -763,4 +763,54 @@ programa {
     imprimirMatriz()
   }
 }
+=================================================================================================================
+programa {
+
+  cadeia jogada,condicao
+  cadeia linha,coluna
+  cadeia matriz[3][3] = {
+    {" "," "," "},
+    {" "," "," "},
+    {" "," "," "}
+  }
+  logico podeContinuar = verdadeiro
+  
+  funcao imprimirMatriz(){
+    para(inteiro i = 0; i < 3; i++){
+      para(inteiro j = 0; j < 3; j++){
+         escreva("\t\t")
+        se(matriz[i][j] != " "){
+          escreva(matriz[i][j])
+        }senao{
+          escreva("*")
+        }
+      }
+      escreva("\n")
+    } 
+  }
+  funcao obterDados(){
+    enquanto(podeContinuar){
+      escreva("escreva a jogada: \n")
+      leia(jogada)
+      escreva("Infome a linha: \n")
+      leia(linha)
+      escreva("Infome a coluna: \n")
+      leia(coluna)
+      escreva("Deseja continuar:(s/n)? \n")
+      leia(condicao)
+
+      matriz[linha][coluna] = jogada
+      imprimirMatriz()
+      se(condicao == "n"){
+        podeContinuar = falso
+      }
+
+    }
+  }
+  funcao inicio(){
+    obterDados()
+   
+  }
+}
+===========================================================================================
 ===========================================================================================================
