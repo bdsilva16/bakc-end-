@@ -1,0 +1,366 @@
+programa {
+  inclua biblioteca Util --> u
+
+  //letra B
+  cadeia matriz[7][5] = {
+    {1,1,1,1,0},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,1,1,1,0},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,1,1,1,0}  
+  }
+  //letra R
+  cadeia matrizR[7][5] ={
+    {1,1,1,1,0},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,1,1,1,0},
+    {1,0,1,0,0},
+    {1,0,0,1,0},
+    {1,0,0,0,1}
+  }
+  //letra E
+  cadeia matrizE[7][5] ={
+    {1,1,1,1,0},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,1,1,1,0},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,1,1,1,0}
+  }
+  //letra N
+  cadeia matrizN[7][5] ={
+    {1,0,0,0,1},
+    {1,1,0,0,1},
+    {1,0,1,0,1},
+    {1,0,0,1,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1}
+  }
+  //letra O
+  cadeia matrizO[7][5] ={
+    {0,1,1,1,0},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {0,1,1,1,0}
+  }
+  // Letra I
+  inteiro matrizI[7][5]={
+    {1,1,1,1,1},
+    {0,0,1,0,0},
+    {0,0,1,0,0},
+    {0,0,1,0,0},
+    {0,0,1,0,0},
+    {0,0,1,0,0},
+    {1,1,1,1,1}
+  }
+  //letra D
+  inteiro matrizD[7][5]={
+    {1,1,1,1,0},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,1,1,1,0}
+  }
+  //letra A
+  inteiro matrizA[7][5]={
+    {0,1,1,1,0},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,1,1,1,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1}
+  }
+  // Letra S
+  inteiro matrizS[7][5]={
+    {0,1,1,1,1},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {0,1,1,1,0},
+    {0,0,0,0,1},
+    {0,0,0,0,1},
+    {1,1,1,1,0}
+  }
+// Letra T
+  inteiro matrizT[7][5]={
+    {1,1,1,1,1},
+    {0,0,1,0,0},
+    {0,0,1,0,0},
+    {0,0,1,0,0},
+    {0,0,1,0,0},
+    {0,0,1,0,0},
+    {0,0,1,0,0}
+  }
+  // Letra L
+  inteiro matrizL[7][5]={
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,1,1,1,1}
+  }
+  // Letra V
+  inteiro matrizV[7][5]={
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {1,0,0,0,1},
+    {0,1,0,1,0},
+    {0,0,1,0,0},
+    {0,0,0,0,0}
+  }
+  // Letra F
+  inteiro matrizF[7][5]={
+    {1,1,1,1,1},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,1,1,1,1},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,0,0,0,0}
+  }
+// Letra Z
+  inteiro matrizZ[7][5]={
+    {1,1,1,1,1},
+    {0,0,0,1,0},
+    {0,0,1,0,0},
+    {0,1,0,0,0},
+    {1,0,0,0,0},
+    {1,0,0,0,0},
+    {1,1,1,1,1}
+  }
+  funcao letraB(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matriz[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+funcao letraR(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizR[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  
+funcao letraE(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizE[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+funcao letraN(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizN[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao letraO(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizO[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao letraD(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizD[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao letraI(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizI[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao letraA(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizA[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao letraS(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizS[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao letraT(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizT[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao letraL(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizL[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao letraV(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizV[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao letraF(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizF[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+   funcao letraZ(){
+    para(inteiro i = 0; i < 7; i++){
+      escreva("\n")
+      para(inteiro j = 0; j < 5; j++){
+        escreva("\t")
+        se(matrizZ[i][j] == "1"){
+          escreva("0")
+        }senao{
+          escreva(" ")
+        }
+      }
+      u.aguarde(80)
+    }
+  }
+  funcao inicio() {
+   
+    letraF()
+    escreva("\n")
+    letraE()
+    escreva("\n")
+    letraL()
+    escreva("\n")
+    letraI()
+    escreva("\n")
+    letraZ()
+    escreva("\n\n\n")
+    letraN()
+    escreva("\n")
+    letraA()
+    escreva("\n")
+    letraT()
+    escreva("\n")
+    letraA()
+    escreva("\n")
+    letraL()
+    escreva("\n")
+    
+   
+  }
+}
