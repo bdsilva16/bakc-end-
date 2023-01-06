@@ -87,3 +87,35 @@ add column telefone character varying(11);
 		
 ALTER TABLE funcionarios		
 drop column telefone;		
+=========================================================================================================================================
+<!DOCTYPE html>
+    <head>  
+        <title>Teste</title>
+    </head>
+
+    <textarea cols="10" rows="10">
+        
+    </textarea>
+
+    <body>
+        <form>
+            <p><label>Nome</label><input type="text" name="nome" value=""></p>
+            <p><label>Cpf</label><input type="text" name="endereço" value=""></p>
+            <p><label>Telefone</label><input type="text" name="telefone" value=""></p>
+            <p><label>Email</label><input type="email" name="email" value=""></p>
+            <p><label>Senha</label><input type="password" name="senha" value=""></p>
+            <p><label>Nome</label><input type="range" name="nome" value=""></p>
+            <p><label>Nome</label><input type="datetime" name="nome" value=""></p>
+            <p><label>Nome</label><input type="file" name="nome" value=""></p>
+            <p><label>Nome</label><input type="checkbox" name="nome" value=""></p>
+            <p><label>Nome</label><input type="radio" name="nome" value=""></p>
+            <p><label>Nome</label><input type="number" name="nome" value=""></p>
+            <p><label>Nome</label><input type="tel" name="nome" value=""></p>
+            <p><label>Nome</label><input type="url" name="nome" value=""></p>
+            <p><label>Nome</label><input type="button" name="nome" value=""></p>
+
+        </form>
+    </body>
+
+</html>
+==========================================================================================================
