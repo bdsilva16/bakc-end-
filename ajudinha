@@ -1,0 +1,89 @@
+	TABELA: FUNCIONARIOS 	
+ID	NOME  	NASCIMENTO
+1	BRENO	03/01/2004
+2	ANNA 	14/08/2005
+3	INGRID	10/11/2004
+		
+TRAZ AS INFOMAÇÕE S DO ID SELECIONADO		
+		
+SELECT ID=2 FROM FUNCIONARIOS 		
+SELECT  * FORM FUNCIONARIOS		
+WHERE ID = 2 AND 		
+		
+		
+ATUALIZA OS NOMES COM O ID SELECIONADO 		
+		
+UPDATE  FROM FUNCIONARIOS SET		
+NOME = 'INGRID DIAS SANTANA' WHERE ID = 3		
+		
+DELETA O NOME SELECIONADO		
+DELETE FROM FUNCIONARIOS 		
+WHERE NOME = 'NILTON'		
+		
+TRAZ AS INFOMAÇÕE S DE  2 ID SELECIONADO		
+		
+		
+SELECT  * FORM FUNCIONARIOS		
+WHERE ID = 2 AND ID = 3		
+		
+create: cria? Tabela, 		BANCO_DE_DADOS
+exm: create database [NOME_DO_BANCO]		
+		
+		
+		
+		
+		
+		
+CRIAR TABELA :		
+EX:CREATE TABLE[NOME_TABELA]		
+		
+ID INTERGE,		
+NOME CHARACTER VARYING,		
+CPF CHAR(11),		
+NASCIMENTO DATE		
+		
+		
+alterar tabela:		
+		
+ALTER TABLE funcionarios		
+ALTER COLUMN id SET NOT NULL;		
+		
+ALTER TABLE funcionarios		
+ALTER COLUMN nome SET NOT NULL;		
+		
+ALTER TABLE funcionarios		
+ALTER COLUMN cpf SET NOT NULL;		
+		
+ALTER TABLE funcionarios		
+ALTER COLUMN nascimento SET NOT NULL;		
+		
+ALTER TABLE funcionarios		
+ADD PRIMARY KEY (ID);		
+		
+		
+apagar tabelas:		
+		
+drop table(nome da tabela)		
+		
+		
+		
+		
+create table funcionarios		
+(		
+id integer not null,		
+nome character varying not null,		
+cpf character varying(11) not null,		
+nascimento date not null, 		
+primary key (id)		
+);		
+		
+		
+		
+adicionando um campo na tabela 		
+		
+ALTER TABLE funcionarios		
+add column telefone character varying(11);		
+		
+		
+ALTER TABLE funcionarios		
+drop column telefone;		
