@@ -119,3 +119,10 @@ drop column telefone;
 
 </html>
 ==========================================================================================================
+
+
+background-color - altera a cor do fundo
+color - altera a cor do texto
+font-weight - altera o peso da fonte
+========================================================================================
+
