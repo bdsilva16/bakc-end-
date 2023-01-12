@@ -1,0 +1,13 @@
+.caixa{
+    border: solid white;
+    line-height: 250px;
+    border-radius: 15px;
+}
+.white{
+    background-color: rgb(194, 182, 182);
+    color: black;
+}
+.grey{
+    background-color: rgb(59, 55, 55);
+    color: blanchedalmond;
+}
