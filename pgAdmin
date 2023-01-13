@@ -1,0 +1,18 @@
+create table matricula(
+	id integer not null,
+	numero_matricula integer not null,
+	data_matricula date not null,
+	valor_mensal real not null,
+	estudantes_id integer not null,
+	disciplina_id integer not null,
+	primary key(id)
+);
+alter table matricula
+add constraint estudantes_id_fk
+foreign key (estudantes_id)
+references estudantes(id)
+
+alter table matricula
+add constraint disciplina_id_fk
+foreign key (disciplina_id)
+references disciplina(id)
