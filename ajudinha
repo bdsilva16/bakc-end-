@@ -140,3 +140,6 @@ create table livro_autor(
 	
 	
 );
+======================================================================================================
+insert into biblioteca(cnpj, nome_fantasia)
+values('12345678910090', 'Renovação')
