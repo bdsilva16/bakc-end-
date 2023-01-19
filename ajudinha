@@ -150,3 +150,21 @@ insert into biblioteca(cnpj, nome_fantasia)
 values('12345678910090', 'Renovação')
 
 =======================================================================================
+create table funcionario(
+	id serial,
+	nome varchar(50)not null,
+	data_nascimento date not null,
+	ctps varchar (11) not null,
+	cpf varchar (16) not null,
+	salario numeric (8,2) not null,
+	primary key (id),
+	empresa_id int not null,
+	departamento_id int not null,
+	constraint empresa_funcionario_fk
+		foreign key(empresa_id)
+			references empresa(id),
+	constraint departamento_funcionario_fk
+		foreign key(departamento_id)
+			references departamento (id)
+);
+===================================================================================
