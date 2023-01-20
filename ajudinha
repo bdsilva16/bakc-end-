@@ -168,3 +168,15 @@ create table funcionario(
 			references departamento (id)
 );
 ===================================================================================
+
+select f.nome, f.salario, d.nome, de.nome from funcionario f
+join departamento d
+on f.departamento_id = d.id
+join dependente de
+on de.funcionario_id = f.id
+
+
+coloque apeledido nas coisa para chamalas 
+
+
+===============================================
