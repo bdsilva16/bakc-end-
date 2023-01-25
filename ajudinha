@@ -179,6 +179,9 @@ on de.funcionario_id = f.id
 coloque apeledido nas coisa para chamalas 
 
 
-===============================================
-npx create-react-app --template-typescript
-==============================================
+==========================================================
+comandos ubuntu:
+
+npx create-react-app lista-filmes --template typescript
+npm i --save-dev @types/styled-components
+===========================================================
