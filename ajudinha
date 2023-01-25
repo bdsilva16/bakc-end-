@@ -180,3 +180,5 @@ coloque apeledido nas coisa para chamalas
 
 
 ===============================================
+npx create-react-app --template-typescript
+==============================================
