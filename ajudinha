@@ -184,4 +184,5 @@ comandos ubuntu:
 
 npx create-react-app lista-filmes --template typescript
 npm i --save-dev @types/styled-components
+npm start = inica o servidor
 ===========================================================
