@@ -180,10 +180,13 @@ coloque apeledido nas coisa para chamalas
 
 
 ==========================================================
-comandos ubuntu:
+comandos cmd:
 
 npx create-react-app lista-filmes --template typescript
 npm i --save-dev @types/styled-components
+npm install styled-components react-router-dom@6
 npm start = inica o servidor
 code . = estra pelo vscode
+npm uninstall create-react-app = desistalar o create
+npm install create-react-app-g = instalar create
 ===========================================================
