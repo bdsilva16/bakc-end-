@@ -189,4 +189,6 @@ npm start = inica o servidor
 code . = estra pelo vscode
 npm uninstall create-react-app = desistalar o create
 npm install create-react-app-g = instalar create
+mkdir(nome da pasta) = cria pasta 
+git clode mais o http = clona a pasta di git
 ===========================================================
