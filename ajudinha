@@ -194,3 +194,10 @@ git clode mais o http = clona a pasta di git
 npm i = istala todas as dependecias do projeto
 /www.dio.me
 ===========================================================
+RESTFUL:
+GET=> OBTER DADOS 
+POST=> GRAVA DADOS 
+PUT=> ATUALIZA
+PATCH=> ARUALIZAR
+DELETE=> REMOVER 
+================================================
