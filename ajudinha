@@ -92,6 +92,12 @@ add column telefone character varying(11);
 		
 ALTER TABLE funcionarios		
 drop column telefone;		
+
+============================================================
+ALTER TABLE objeto ADD CONSTRAINT id_fk_pessoa             =
+FOREIGN KEY(fk_pessoa) REFERENCES pessoa (id);             =
+                                                           =
+adiciona chave estrangeira.			           =		 
 =========================================================================================================================================
 <!DOCTYPE html>
     <head>  
