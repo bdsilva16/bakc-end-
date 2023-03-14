@@ -201,6 +201,7 @@ npm i = istala todas as dependecias do projeto
 /www.dio.me
 npx @nestjs/cli new todolist_api
 npm i --save @nestjs/config
+npm i --save @nestjs/typeorm typeorm pg
 ===========================================================
 RESTFUL:
 GET=> OBTER DADOS 
