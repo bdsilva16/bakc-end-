@@ -199,6 +199,7 @@ mkdir(nome da pasta) = cria pasta
 git clode mais o http = clona a pasta di git
 npm i = istala todas as dependecias do projeto
 /www.dio.me
+npx @nestjs/cli new todolist_api
 ===========================================================
 RESTFUL:
 GET=> OBTER DADOS 
